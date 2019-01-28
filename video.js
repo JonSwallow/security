@@ -1,8 +1,8 @@
 (function()  {
-	var video= document.getElementById( 'video'),
+	var video= document.getElementById('video'),
 			vendorUrl = window.URL || window.webkitURL;
 
-   navigator.getMedia = navigator.getUserMEdia ||
+   navigator.getMedia = navigator.getUserMedia ||
 			navigator.webkitGetUserMedia ||
 			navigator.mozGetUserMedia ||
 			navigator.msGetUserMedia;
