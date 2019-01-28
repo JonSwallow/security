@@ -15,7 +15,7 @@
                   video.srcObject = stream;
                  video.play();
     }, function(error) {
-			    	// body...
+			    	
 		
 			});
 })();
