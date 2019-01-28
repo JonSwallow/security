@@ -11,7 +11,7 @@
 			navigator.getMedia({
 				video: true,
 				audio: false
-    }, function(stream); {
+    }, function(stream) {
                  video.src = vendorUrl.createObjectURL(stream);
                  video.play();
     }, function(error) {
